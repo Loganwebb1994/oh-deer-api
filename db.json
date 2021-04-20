@@ -1,16 +1,257 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "Logan",
+      "email": "loganwebb1994@gmail.com"
+    },
+    {
+      "email": "scortscort@scort.com",
+      "name": "Scott Silver",
+      "id": 2
+    },
+    {
+      "email": "jisie@jisie.com",
+      "name": "Jisie David",
+      "id": 3
     }
   ],
-  "comments" : [
+  "stands": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "North",
+      "location": "Neils Field",
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "East",
+      "location": "Neils Field",
+      "availability": true
+    },
+    {
+      "id": 3,
+      "name": "North",
+      "location": "North River Field",
+      "availability": true
+    },
+    {
+      "id": 4,
+      "name": "South",
+      "location": "North River Field",
+      "availability": false
+    },
+    {
+      "id": 5,
+      "name": "East",
+      "location": "North River Field",
+      "availability": false
+    },
+    {
+      "id": 6,
+      "name": "West",
+      "location": "North River Field",
+      "availability": false
+    },
+    {
+      "id": 7,
+      "name": "South",
+      "location": "South River Field",
+      "availability": true
+    },
+    {
+      "id": 8,
+      "name": "West",
+      "location": "South River Field",
+      "availability": true
+    },
+    {
+      "id": 9,
+      "name": "East",
+      "location": "The Duck Hole",
+      "availability": true
+    },
+    {
+      "id": 10,
+      "name": "West",
+      "location": "The Duck Hole",
+      "availability": true
+    },
+    {
+      "id": 11,
+      "name": "South",
+      "location": "The Duck Hole",
+      "availability": true
+    },
+    {
+      "id": 12,
+      "name": "North",
+      "location": "The Bone Yard",
+      "availability": true
+    },
+    {
+      "id": 13,
+      "name": "East",
+      "location": "The Bone Yard",
+      "availability": false
+    },
+    {
+      "id": 14,
+      "name": "West",
+      "location": "The Bone Yard",
+      "availability": true
+    },
+    {
+      "id": 15,
+      "name": "North",
+      "location": "Slough Field",
+      "availability": true
+    },
+    {
+      "id": 16,
+      "name": "South",
+      "location": "Slough Field",
+      "availability": true
+    },
+    {
+      "id": 17,
+      "name": "East",
+      "location": "Lance's Secret Spot",
+      "availability": true
+    },
+    {
+      "id": 18,
+      "name": "West",
+      "location": "Lance's Secret Spot",
+      "availability": true
+    }
+  ],
+  "userStands": [
+    {
+      "userId": 2,
+      "standId": 2,
+      "note": "shot a beaver",
+      "timestamp": 1616776869310,
+      "id": 78
+    },
+    {
+      "userId": 1,
+      "standId": 11,
+      "note": "Saw an irregular 6 pt",
+      "timestamp": 1616788530906,
+      "id": 103
+    },
+    {
+      "userId": 1,
+      "standId": 3,
+      "note": "A Coyote ran across the field",
+      "timestamp": 1616788659367,
+      "id": 104
+    },
+    {
+      "userId": 1,
+      "standId": 14,
+      "note": "Uneventful",
+      "timestamp": 1616790700380,
+      "id": 105
+    },
+    {
+      "userId": 3,
+      "standId": 3,
+      "note": "",
+      "timestamp": 1616795219617,
+      "id": 119
+    },
+    {
+      "userId": 3,
+      "standId": 3,
+      "note": "",
+      "timestamp": 1616795228591,
+      "id": 120
+    },
+    {
+      "userId": 1,
+      "standId": 1,
+      "note": "Uneventful",
+      "timestamp": 1617378957536,
+      "id": 121
+    },
+    {
+      "userId": 1,
+      "standId": 2,
+      "note": "Saw a doe and a yearling",
+      "timestamp": 1617378959663,
+      "id": 122
+    },
+    {
+      "userId": 1,
+      "standId": 3,
+      "note": "Saw 3 doe",
+      "timestamp": 1617378963133,
+      "id": 123
+    },
+    {
+      "userId": 1,
+      "standId": 2,
+      "note": "Uneventful",
+      "timestamp": 1617379018987,
+      "id": 124
+    },
+    {
+      "userId": 1,
+      "standId": 1,
+      "note": "Uneventful",
+      "timestamp": 1617380921372,
+      "id": 125
+    },
+    {
+      "userId": 1,
+      "standId": 1,
+      "note": "Saw 200 lb boar",
+      "timestamp": 1617383226513,
+      "id": 126
+    },
+    {
+      "userId": 1,
+      "standId": 2,
+      "note": "Uneventful",
+      "timestamp": 1617417563041,
+      "id": 127
+    },
+    {
+      "userId": 1,
+      "standId": 3,
+      "note": "Uneventful",
+      "timestamp": 1617639677192,
+      "id": 128
+    },
+    {
+      "userId": 1,
+      "standId": 17,
+      "note": "Saw an 8 pt walk in from the east.",
+      "timestamp": 1617648818461,
+      "id": 129
+    },
+    {
+      "userId": 1,
+      "standId": 7,
+      "note": "Saw a big frog, named him milky",
+      "timestamp": 1617721736879,
+      "id": 133
+    },
+    {
+      "userId": 1,
+      "standId": 1,
+      "note": "",
+      "timestamp": 1617751392648,
+      "id": 134
+    },
+    {
+      "userId": 1,
+      "standId": 1,
+      "note": "",
+      "timestamp": 1617751398599,
+      "id": 135
     }
   ]
 }
